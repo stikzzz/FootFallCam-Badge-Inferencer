@@ -1,0 +1,3 @@
+ultralytics==8.4.212
+openvino==2026.4.1
+lap>=0.5.12,<1

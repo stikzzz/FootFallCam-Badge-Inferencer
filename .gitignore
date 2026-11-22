@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+/.vscode/
+/.idea/
+/tags/
+/train set/
+/AI Evaluation Test.pdf
+*.mp4
+*.avi
+*.mov
+*.mkv
+/tmp/
+/runs/
+/models/*
+!/models/yolo26n_badge_stage_openvino_model/
+/output/*
+!/output/yolo26s_person_fullframe_training/
+/output/yolo26s_person_fullframe_training/*
+!/output/yolo26s_person_fullframe_training/weights/
+/output/yolo26s_person_fullframe_training/weights/*
+!/output/yolo26s_person_fullframe_training/weights/best_openvino_model/

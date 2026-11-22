@@ -1,0 +1,24 @@
+description: Ultralytics YOLO26n model trained on output\badge_stage_dataset\badge.yaml
+author: Ultralytics
+date: "2026-11-22T17:57:52.642506+08:00"
+version: "8.4.212"
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 8
+imgsz:
+- 288
+- 288
+names:
+  0: badge
+args:
+  data: null
+  batch: 8
+  fraction: 1.0
+  quantize: null
+  nms: null
+  dynamic: true
+channels: 3
+end2end: false
